@@ -1,8 +1,11 @@
-import Image from "next/image";
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <Link href="./week-2">aaa</Link>
+    <main>
+      <h1>CPRG 306: Web Development 2 - Assignments</h1>
+      <p><Link className="underline" href="./week-2">Week 2 Assignment</Link></p>
+      <p><Link className="underline" href="./week-3">Week 3 Assignment</Link></p>
+    </main>
   );
 }
