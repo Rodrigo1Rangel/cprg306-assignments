@@ -14,6 +14,7 @@ export default function NewItem(){
         let item = { name, quantity, category };
         console.log(item);
         alertUpdateCart(item);
+        // alertUpdateCart({name, quantity, category});
 
         setCartQuantity(1);
         setName("");
